@@ -1,0 +1,138 @@
+header{
+    background: linear-gradient(to right,red, rgb(3, 158, 3), yellow);
+}
+.head{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.second{
+    border: 4px solid red;
+    background-color: skyblue;
+    border-radius: 8px;
+    width: 40%;
+    text-align: center;
+   margin-left: 30%;
+   position: relative;
+}
+
+.ulist{
+    margin: 20px auto;
+    width: 20%;
+}
+
+.third{
+    border: 3px solid green;
+    background-color: rgb(150, 241, 196);
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    
+}
+
+.loremdiv{
+   border: 2px solid green;
+   border-radius: 5px;
+   background-color: cyan;
+   text-align: center;
+   margin: 0 20px; 
+   font-weight: bold;
+   padding: 5px;
+   font-size: 20px;
+}
+
+.middle{
+    grid-column: 2/2;
+}
+
+.four{
+    background: linear-gradient(to right,rgb(240, 39, 39), yellow, rgb(240, 39, 39));
+    text-align: center;
+    text-decoration: underline red;
+    font-weight: bold;
+    height: 45px;
+    font-size: 22px;
+}
+
+.five{
+    background: radial-gradient(blue, rgb(48, 175, 48));
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    height: 220px;
+}
+
+.jee{
+    background-color:rgb(250, 250, 39);
+    border: 2px solid rgb(160, 7, 7);
+    border-radius: 8px;
+    color: rgb(160, 7, 7);
+    text-decoration: underline rgb(160, 7, 7);
+    text-align: center;
+    margin-top: 60px;
+    width: 15%;
+    height: 95px;
+}
+.zero{
+    margin-top:0 ;
+}
+
+.parent{
+    border: 2px solid grey;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+    color: white;
+    grid-gap: 10px;
+}
+.a1{
+    background-color: rgb(197, 30, 30);
+    text-align: center;
+    font-size: 24px;
+    grid-column: 1/5;
+   
+}
+
+.b1{
+    background-color: rgb(28, 196, 28);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.b2{
+    background-color: rgb(17, 115, 226);
+    text-align: left;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.b3{
+    background-color: rgb(70, 43, 226);
+    text-align: left;
+    font-weight: 800;
+    font-size: 18px;
+}
+.b4{
+    background-color: rgb(20, 20, 20);
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+
+.c1{
+    background-color: orange;
+    grid-column: 1/4;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.d1{
+    background-color: turquoise;
+    text-align: center;
+    grid-column: 1/5;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+}
